@@ -54,17 +54,6 @@ I enjoy the full cycle of AI development—from conceptualization and prototypin
 
 ---
 
-## 📫 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/venkata-sai-putrayya-kola)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:vsputrayyakola@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kvsp7)
-
----
-
-## 📊 GitHub Activity
-
-![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=kvsp7&limit=5&combine_all_yearly_contributions=true)
 
 ---
 
