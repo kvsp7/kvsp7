@@ -1,70 +1,32 @@
 # Venkata Sai Putrayya Kola
 
-**AI/ML Researcher** | **Deep Learning Engineer** | **Generative AI**
+**AI/ML Researcher** | **Deep Learning Engineer** | **Generative AI Enthusiast**
 
 ---
 
 ## About Me
 
-AI/ML researcher specializing in deep learning, large language models, and generative AI. I bridge the gap between cutting-edge research and production-ready systems, with a focus on scalable architectures and real-world impact.
+AI/ML researcher focused on building intelligent systems that learn, adapt, and solve real-world problems. I specialize in deep learning architectures, large language models (LLMs), and generative models (GANs, Diffusion)—bridging theoretical research with practical, production-ready solutions through hands-on experimentation and optimization.
 
 ---
 
-## Technical Expertise
+## Tech Stack
 
-**Languages:** Python · C · R · SQL · Bash
-
-**ML/DL:** PyTorch · TensorFlow · Hugging Face · Keras · JAX
-
-**MLOps:** Docker · FastAPI · Flask · MLflow · Kubernetes
-
-**Data:** NumPy · Pandas · SciPy · OpenCV · Plotly
-
-**HPC:** CUDA · TensorRT · Distributed Training
-
-**Cloud:** AWS · GCP · Azure
-
----
-
-## Research Interests
-
-- Large Language Models (LLMs) & Fine-Tuning
-- Generative Models (Diffusion, GANs, VAEs)
-- Neural Architecture Search & Optimization
-- Multimodal Learning
-- MLOps & Model Deployment
-
----
-
-## Featured Projects
-
-**LLM Fine-Tuning Pipeline** — QLoRA + PEFT for domain-specific LLaMA-2 fine-tuning  
-*PyTorch · Transformers · FastAPI · Docker*
-
-**Real-Time Object Detection** — YOLOv8 + TensorRT for edge deployment at 60+ FPS  
-*PyTorch · OpenCV · TensorRT · AWS*
-
-**Generative Art Studio** — Diffusion-based image generation with Stable Diffusion  
-*PyTorch · Diffusers · Streamlit · MLflow*
-
-**Predictive Analytics Dashboard** — AutoML for time-series forecasting  
-*scikit-learn · XGBoost · Plotly · FastAPI*
-
----
-
-## Publications
-
-- "Efficient Fine-Tuning of LLMs for Low-Resource Domains" — *ICML Workshop, 2024*
-- "Diffusion Models for Medical Image Synthesis" — *NeurIPS, 2023*
-- "Neural Architecture Search for Edge Devices" — *CVPR, 2023*
-
----
-
-## Certifications
-
-- Deep Learning Specialization — *DeepLearning.AI*
-- TensorFlow Developer Certificate — *Google*
-- AWS ML Specialty — *Amazon*
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white)
+![R](https://img.shields.io/badge/r-%23276DC3.svg?style=flat&logo=r&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat&logo=Keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=flat&logo=opencv&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=flat&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
+![CUDA](https://img.shields.io/badge/cuda-000000.svg?style=flat&logo=nVIDIA&logoColor=green)
 
 ---
 
@@ -72,10 +34,11 @@ AI/ML researcher specializing in deep learning, large language models, and gener
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/venkata-sai-putrayya-kola)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:vsputrayyakola@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/kvsp7)
 
 ---
 
-![](https://github-contributor-stats.vercel.app/api?username=kvsp7&limit=3&combine_all_yearly_contributions=true)
+## GitHub Stats
 
-![](https://komarev.com/ghpvc/?username=kvsp7&style=flat&color=blue)
+![](https://github-contributor-stats.vercel.app/api?username=kvsp7&limit=5&combine_all_yearly_contributions=true)
+
+![](https://komarev.com/ghpvc/?username=kvsp7&icon=0&color=0)
