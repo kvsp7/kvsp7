@@ -1,4 +1,4 @@
-MAKE IYT MORE PROFSSIOANL 
+
 #  About Me:
 I am an aspiring AI/ML researcher focused on building intelligent systems and advancing modern AI technologies. My work centers on developing algorithms that can learn, adapt, and solve real-world problems efficiently.<br><br>I am particularly interested in deep learning, large language models (LLMs), generative models (GANs), and applied machine learning. I enjoy turning theoretical concepts into practical solutions through hands-on experimentation, model development, and optimization.
 
