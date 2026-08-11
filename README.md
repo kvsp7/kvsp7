@@ -1,41 +1,13 @@
 <!-- ========================================================================= -->
-<!--  AI/ML RESEARCH LABORATORY — GITHUB PROFILE README (kvsp7)                -->
-<!--  Aesthetic: Bright Scientific Laboratory • Light Glassmorphism • Clean Grid-->
+<!--  AI/ML RESEARCH NOTEBOOK — GITHUB PROFILE README (kvsp7)                   -->
+<!--  Format: Interactive Paper / Lab Notebook • Clean Academic Aesthetic       -->
 <!-- ========================================================================= -->
 
 <div align="center">
 
-  <!-- LIGHT SCIENTIFIC HEADER BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f0f9ff,40:e0f2fe,70:dbeafe,100:f3e8ff&height=190&section=header&text=AI%2FML%20Research%20Lab&fontSize=34&fontColor=0F172A&animation=twinkle&fontAlignY=36" width="100%" />
-
-  <!-- ANIMATED TYPING RESEARCH SUBTITLE -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=800&color=2563EB&center=true&vcenter=true&width=750&lines=AI%2FML+Researcher+%E2%80%A2+Deep+Learning+%E2%80%A2+NLP+%E2%80%A2+Transformers;Transformer+Architectures+%26+Scaled+Dot-Product+Attention;Language+Representation+%26+Sequence-to-Sequence+Models;Efficient+Deep+Learning+%E2%80%A2+Model+Optimization" alt="Typing Header SVG" />
-  </a>
-
-</div>
-
-<br />
-
-<!-- ========================================================================= -->
-<!--  RESEARCH ABSTRACT & MATHEMATICAL FORMULATION                             -->
-<!-- ========================================================================= -->
-
-<div align="center">
-
-> 🔬 **AI & NLP Researcher** focused on neural sequence modeling, transformer architecture design, and efficient deep learning optimization.
-
-<br />
-
-### 📐 Scaled Dot-Product & Multi-Head Attention
-
-```math
-\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-```
-
-```math
-\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \dots, \text{head}_h)W^O \quad \text{where } \text{head}_i = \text{Attention}(QW_i^Q, KW_i^K, VW_i^V)
-```
+  <h1>📄 kvsp7 // AI & Deep Learning Research Notebook</h1>
+  <p><b>Primary Focus:</b> Large Language Models • Attention Mechanisms • Transformer Architectures</p>
+  <p><code>[arXiv:2408.kvsp7]</code> • <code>Status: Active Research</code> • <code>Location: AI Research Lab</code></p>
 
 </div>
 
@@ -43,37 +15,61 @@
 
 ---
 
-<!-- ========================================================================= -->
-<!--  CORE RESEARCH DIRECTIONS                                                 -->
-<!-- ========================================================================= -->
+### 📝 Executive Abstract
 
-<table width="100%" style="border-collapse: collapse; border: none;">
+> **Research Statement:** Investigating scalable sequence modeling, efficient self-attention computation, and deep representation learning. Bridging high-level NLP abstractions with low-level CUDA optimization to build faster, interpretably transparent deep learning architectures.
+
+<br />
+
+---
+
+### 📐 Mathematical Foundations
+
+#### 1. Scaled Dot-Product & Multi-Head Self-Attention
+$$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+
+$$\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \dots, \text{head}_h)W^O \quad \text{where } \text{head}_i = \text{Attention}(QW_i^Q, KW_i^K, VW_i^V)$$
+
+#### 2. Sequence Cross-Entropy Loss & Optimization
+$$\mathcal{L}_{\text{seq}}(\theta) = -\frac{1}{T} \sum_{t=1}^T \log P(y_t \mid y_{<t}, X; \theta) + \frac{\lambda}{2}\|\theta\|_2^2$$
+
+<br />
+
+---
+
+### 🔬 Core Research Thrusts
+
+<table width="100%" style="border-collapse: collapse; background: #ffffff;">
   <tr>
-    <td width="50%" style="padding: 12px; border: 1px solid #e2e8f0; border-radius: 8px; background-color: #fafafa;">
-      <h4>🧠 Natural Language Processing</h4>
-      <p style="font-size: 14px; color: #475569;">
-        Researching context-aware representations, tokenization dynamics, and fine-tuning strategies for Large Language Models (LLMs).
+    <td width="50%" style="padding: 16px; border: 1px solid #e2e8f0; vertical-align: top;">
+      <h4 style="margin-top: 0; color: #1e293b;">🧠 1. Language & Sequence Modeling</h4>
+      <p style="font-size: 13px; color: #475569; line-height: 1.5;">
+        Autoregressive transformer decoders, contextual embeddings, tokenization dynamics, and fine-tuning strategies for specialized domain NLP.
       </p>
+      <p style="font-size: 12px; color: #0284c7; margin-bottom: 0;"><b>Keywords:</b> LLMs • Tokenization • Context Windows</p>
     </td>
-    <td width="50%" style="padding: 12px; border: 1px solid #e2e8f0; border-radius: 8px; background-color: #fafafa;">
-      <h4>⚡ Transformer Architectures</h4>
-      <p style="font-size: 14px; color: #475569;">
-        Investigating attention mechanism variants, memory-efficient FlashAttention implementations, and linear-time sequence models.
+    <td width="50%" style="padding: 16px; border: 1px solid #e2e8f0; vertical-align: top;">
+      <h4 style="margin-top: 0; color: #1e293b;">⚡ 2. Efficient Transformer Systems</h4>
+      <p style="font-size: 13px; color: #475569; line-height: 1.5;">
+        FlashAttention, shared-memory CUDA tiling, sparse attention masks, KV-cache optimization, and low-latency inference pipelines.
       </p>
+      <p style="font-size: 12px; color: #0284c7; margin-bottom: 0;"><b>Keywords:</b> FlashAttention • CUDA Kernels • KV-Cache</p>
     </td>
   </tr>
   <tr>
-    <td width="50%" style="padding: 12px; border: 1px solid #e2e8f0; border-radius: 8px; background-color: #fafafa;">
-      <h4>🔬 Deep Learning Optimization</h4>
-      <p style="font-size: 14px; color: #475569;">
-        Exploring loss surface topology, adaptive gradient methods (AdamW, Lion), mixed-precision training, and model compression.
+    <td width="50%" style="padding: 16px; border: 1px solid #e2e8f0; vertical-align: top;">
+      <h4 style="margin-top: 0; color: #1e293b;">🔬 3. Deep Learning Optimization</h4>
+      <p style="font-size: 13px; color: #475569; line-height: 1.5;">
+        Empirical loss landscape geometry, adaptive gradient algorithms (AdamW, Lion), mixed-precision training stability, and gradient clipping.
       </p>
+      <p style="font-size: 12px; color: #0284c7; margin-bottom: 0;"><b>Keywords:</b> Loss Topology • AdamW • SAM</p>
     </td>
-    <td width="50%" style="padding: 12px; border: 1px solid #e2e8f0; border-radius: 8px; background-color: #fafafa;">
-      <h4>📊 Interpretability & Analytics</h4>
-      <p style="font-size: 14px; color: #475569;">
-        Analyzing attention activation weights, layer-wise representation drift, and statistical metrics across neural layers.
+    <td width="50%" style="padding: 16px; border: 1px solid #e2e8f0; vertical-align: top;">
+      <h4 style="margin-top: 0; color: #1e293b;">📊 4. Interpretability & Diagnostics</h4>
+      <p style="font-size: 13px; color: #475569; line-height: 1.5;">
+        Multi-head attention heatmap visualization, layer-wise representation probing, activation variance analysis, and model benchmarking.
       </p>
+      <p style="font-size: 12px; color: #0284c7; margin-bottom: 0;"><b>Keywords:</b> Attention Heatmaps • Probing • Diagnostics</p>
     </td>
   </tr>
 </table>
@@ -82,87 +78,62 @@
 
 ---
 
-<!-- ========================================================================= -->
-<!--  SCIENTIFIC TOOLKIT & STACK                                               -->
-<!-- ========================================================================= -->
+### 🛠️ Lab Toolkit & Technical Stack
 
-<h2 align="center" style="color: #0f172a;">🛠️ Scientific Stack & Frameworks</h2>
-
-<div align="center">
-
-  <!-- DEEP LEARNING & NLP -->
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-
-  <br /><br />
-
-  <!-- DATA & MATHEMATICS -->
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/SciPy-8993C1?style=flat-square&logo=scipy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/W%26B-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black" />
-
-  <br /><br />
-
-  <!-- VISUALIZATION -->
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white" />
-
-</div>
+```
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│ Frameworks & DL  │  PyTorch  •  TensorFlow  •  Hugging Face  •  CUDA  •  Flask   │
+│ Math & Analytics │  NumPy  •  Pandas  •  SciPy  •  Scikit-Learn  •  W&B          │
+│ Languages        │  Python  •  C  •  C++  •  CUDA C                              │
+│ Visualization    │  Matplotlib  •  Seaborn                                       │
+└──────────────────────────────────────────────────────────────────────────────────┘
+```
 
 <br />
 
 ---
 
-<!-- ========================================================================= -->
-<!--  HIGHLIGHTED REPOSITORIES & RESEARCH                                      -->
-<!-- ========================================================================= -->
+### 📂 Lab Notebook Entries & Software Artifacts
 
-<h2 align="center" style="color: #0f172a;">📄 Highlighted Repositories</h2>
-
-<table width="100%" style="border-collapse: collapse;">
+<table width="100%" style="border-collapse: collapse; background: #ffffff;">
   <tr>
-    <td width="50%" valign="top" style="padding: 12px; border: 1px solid #e2e8f0;">
-      <h3 style="margin-top: 0; color: #2563eb;">⚡ transformer-attention-lab</h3>
-      <p style="color: #475569; font-size: 14px;"><i>Modular PyTorch implementation of Scaled Dot-Product & FlashAttention mechanisms.</i></p>
-      <ul style="color: #334155; font-size: 13px;">
-        <li>Custom CUDA kernel benchmark for attention matrix multiplication.</li>
-        <li>Memory-profiling comparison against standard PyTorch attention loops.</li>
+    <td width="50%" style="padding: 16px; border: 1px solid #e2e8f0; vertical-align: top;">
+      <h3 style="margin-top: 0; font-size: 16px;"><a href="https://github.com/kvsp7/transformer-attention-lab" style="color: #2563eb; text-decoration: none;">📄 Entry #01: transformer-attention-lab</a></h3>
+      <p style="font-size: 13px; color: #475569; line-height: 1.4;"><i>Benchmark suite comparing custom CUDA FlashAttention against standard PyTorch attention loops.</i></p>
+      <ul style="font-size: 12px; color: #334155; padding-left: 18px;">
+        <li>Shared-memory matrix multiplication kernels.</li>
+        <li>Memory footprint analysis across sequence lengths (1K to 32K).</li>
       </ul>
-      <p style="font-size: 12px; color: #64748b;"><b>Tags:</b> <code>PyTorch</code> <code>CUDA</code> <code>Transformers</code></p>
+      <p style="font-size: 11px; color: #64748b; margin-bottom: 0;"><code>PyTorch</code> • <code>CUDA</code> • <code>Transformers</code></p>
     </td>
-    <td width="50%" valign="top" style="padding: 12px; border: 1px solid #e2e8f0;">
-      <h3 style="margin-top: 0; color: #2563eb;">🧠 nlp-sequence-models</h3>
-      <p style="color: #475569; font-size: 14px;"><i>Pre-training and fine-tuning pipelines for BERT, RoBERTa, and GPT architectures.</i></p>
-      <ul style="color: #334155; font-size: 13px;">
-        <li>Custom masking & tokenization strategies for specialized scientific corpora.</li>
-        <li>Distributed multi-GPU training scripts with Hugging Face Accelerate.</li>
+    <td width="50%" style="padding: 16px; border: 1px solid #e2e8f0; vertical-align: top;">
+      <h3 style="margin-top: 0; font-size: 16px;"><a href="https://github.com/kvsp7/nlp-sequence-models" style="color: #2563eb; text-decoration: none;">📄 Entry #02: nlp-sequence-models</a></h3>
+      <p style="font-size: 13px; color: #475569; line-height: 1.4;"><i>Pre-training and fine-tuning pipelines for encoder-decoder sequence architectures.</i></p>
+      <ul style="font-size: 12px; color: #334155; padding-left: 18px;">
+        <li>Masked language modeling & causal decoding algorithms.</li>
+        <li>Distributed data parallel (DDP) training scripts.</li>
       </ul>
-      <p style="font-size: 12px; color: #64748b;"><b>Tags:</b> <code>HuggingFace</code> <code>NLP</code> <code>PyTorch</code></p>
+      <p style="font-size: 11px; color: #64748b; margin-bottom: 0;"><code>HuggingFace</code> • <code>NLP</code> • <code>PyTorch</code></p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" style="padding: 12px; border: 1px solid #e2e8f0;">
-      <h3 style="margin-top: 0; color: #2563eb;">🔬 dl-optimization-suite</h3>
-      <p style="color: #475569; font-size: 14px;"><i>Comparative convergence suite testing AdamW, Lion, and SAM optimizers.</i></p>
-      <ul style="color: #334155; font-size: 13px;">
-        <li>Empirical loss landscape visualization using Matplotlib & Seaborn.</li>
-        <li>Learning rate decay schedule exploration across large parameter sets.</li>
+    <td width="50%" style="padding: 16px; border: 1px solid #e2e8f0; vertical-align: top;">
+      <h3 style="margin-top: 0; font-size: 16px;"><a href="https://github.com/kvsp7/dl-optimization-suite" style="color: #2563eb; text-decoration: none;">📄 Entry #03: dl-optimization-suite</a></h3>
+      <p style="font-size: 13px; color: #475569; line-height: 1.4;"><i>Empirical loss landscape diagnostic suite for deep neural networks.</i></p>
+      <ul style="font-size: 12px; color: #334155; padding-left: 18px;">
+        <li>AdamW vs Lion optimizer convergence profiling.</li>
+        <li>Hessian spectrum approximation & learning rate decay curves.</li>
       </ul>
-      <p style="font-size: 12px; color: #64748b;"><b>Tags:</b> <code>Deep Learning</code> <code>Optimization</code> <code>NumPy</code></p>
+      <p style="font-size: 11px; color: #64748b; margin-bottom: 0;"><code>Optimization</code> • <code>NumPy</code> • <code>Matplotlib</code></p>
     </td>
-    <td width="50%" valign="top" style="padding: 12px; border: 1px solid #e2e8f0;">
-      <h3 style="margin-top: 0; color: #2563eb;">📊 attention-matrix-vis</h3>
-      <p style="color: #475569; font-size: 14px;"><i>Interpretability toolkit for rendering multi-head attention weight distributions.</i></p>
-      <ul style="color: #334155; font-size: 13px;">
-        <li>Interactive head-by-head attention maps for transformer diagnostics.</li>
-        <li>Layer-wise token distance heatmaps generated with Seaborn.</li>
+    <td width="50%" style="padding: 16px; border: 1px solid #e2e8f0; vertical-align: top;">
+      <h3 style="margin-top: 0; font-size: 16px;"><a href="https://github.com/kvsp7/attention-matrix-vis" style="color: #2563eb; text-decoration: none;">📄 Entry #04: attention-matrix-vis</a></h3>
+      <p style="font-size: 13px; color: #475569; line-height: 1.4;"><i>Interpretability toolkit for rendering multi-head attention weight distributions.</i></p>
+      <ul style="font-size: 12px; color: #334155; padding-left: 18px;">
+        <li>Layer-by-layer attention activation heatmaps.</li>
+        <li>Head attribution & token correlation metrics.</li>
       </ul>
-      <p style="font-size: 12px; color: #64748b;"><b>Tags:</b> <code>Visualization</code> <code>Seaborn</code> <code>Pandas</code></p>
+      <p style="font-size: 11px; color: #64748b; margin-bottom: 0;"><code>Visualization</code> • <code>Seaborn</code> • <code>Pandas</code></p>
     </td>
   </tr>
 </table>
@@ -171,27 +142,16 @@
 
 ---
 
-<!-- ========================================================================= -->
-<!--  RESEARCH METRICS & ACTIVITY (BRIGHT SCIENTIFIC LIGHT THEME)              -->
-<!-- ========================================================================= -->
-
-<h2 align="center" style="color: #0f172a;">📊 Research Analytics</h2>
+### 📊 Research Activity & Analytics
 
 <div align="center">
 
-  <!-- LIGHT THEME GITHUB STATS -->
-  <img src="https://github-readme-stats.vercel.app/api?username=kvsp7&show_icons=true&bg_color=ffffff&title_color=2563eb&text_color=334155&icon_color=0ea5e9&border_color=e2e8f0&count_private=true&include_all_commits=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kvsp7&layout=compact&bg_color=ffffff&title_color=2563eb&text_color=334155&border_color=e2e8f0&langs_count=5" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kvsp7&show_icons=true&bg_color=ffffff&title_color=0f172a&text_color=334155&icon_color=2563eb&border_color=e2e8f0&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kvsp7&layout=compact&bg_color=ffffff&title_color=0f172a&text_color=334155&border_color=e2e8f0&langs_count=5" height="165" />
 
   <br /><br />
 
-  <!-- LIGHT THEME STREAK STATS -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kvsp7&background=ffffff&stroke=e2e8f0&sideLabels=334155&currStreakNum=2563eb&dates=64748b&fire=0ea5e9&border_radius=8" alt="Streak Stats" width="85%" />
-
-  <br /><br />
-
-  <!-- CONTRIBUTION SNAKE GRAPH -->
-  <p style="color: #64748b; font-size: 13px;"><b>🐍 Activity Flow</b></p>
+  <p style="font-size: 12px; color: #64748b;"><b>🐍 Contribution Activity</b></p>
   <img src="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="95%" />
 
 </div>
@@ -200,18 +160,20 @@
 
 ---
 
-<!-- ========================================================================= -->
-<!--  FOOTER & VISITOR GAUGE                                                   -->
-<!-- ========================================================================= -->
-
 <div align="center">
 
-  <!-- VISITOR COUNTER BADGE (LIGHT SCIENTIFIC CYAN/BLUE) -->
-  <img src="https://komarev.com/ghpvc/?username=kvsp7&color=2563eb&style=flat-square&label=LAB+VISITORS" alt="Lab Visitors" />
+```
+Citation / Reference:
+@article{kvsp7_research_notebook_2026,
+  author = {kvsp7},
+  title = {AI & Deep Learning Research Notebook},
+  year = {2026},
+  url = {https://github.com/kvsp7}
+}
+```
 
-  <br /><br />
+<br />
 
-  <!-- SOFT FOOTER WAVE -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f0f9ff,40:e0f2fe,70:dbeafe,100:f3e8ff&height=100&section=footer" width="100%" />
+<img src="https://komarev.com/ghpvc/?username=kvsp7&color=2563eb&style=flat-square&label=NOTEBOOK+VISITORS" alt="Lab Visitors" />
 
 </div>
