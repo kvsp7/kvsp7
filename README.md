@@ -1,10 +1,12 @@
 <div align="center">
 
-# Hey 👋, I'm KVSP
+<img src="https://raw.githubusercontent.com/kvsp7/kvsp7/main/assets/neural-network.svg" width="90%" alt="AI Research" />
 
-### AI/ML Student · Aspiring Researcher · Deep Learning & NLP
+# Hey 👋, I'm **KVSP**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=2563EB&center=true&vCenter=true&width=650&lines=Exploring+AI+from+first+principles;Building+Deep+Learning+systems;Understanding+Transformers+%26+NLP;Learning+%E2%86%92+Building+%E2%86%92+Experimenting+%E2%86%92+Researching" />
+### AI/ML Student · Aspiring AI Researcher
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=3000&pause=900&color=2563EB&center=true&vCenter=true&width=620&lines=Exploring+AI+from+first+principles;Building+Deep+Learning+systems;Exploring+Transformers+%26+NLP;Learning+%E2%86%92+Building+%E2%86%92+Researching" alt="Typing animation" />
 
 <br>
 
@@ -17,17 +19,11 @@
 
 ## 🧠 About Me
 
-I'm an **AI/ML student** interested in understanding intelligent systems from their mathematical foundations.
+I'm an **AI/ML student** interested in understanding how intelligent systems learn.
 
-I enjoy going from:
+I enjoy turning ideas into working systems and learning through **implementation, experimentation, and research**.
 
-<div align="center">
-
-**Mathematics → Algorithms → Code → Experiments → Research**
-
-</div>
-
-My main interests are **Deep Learning, NLP, Transformers, LLMs, Optimization, and Representation Learning.**
+**Currently focused on:** Deep Learning · NLP · Transformers · LLMs · Optimization
 
 ---
 
@@ -41,15 +37,15 @@ My main interests are **Deep Learning, NLP, Transformers, LLMs, Optimization, an
 
 </div>
 
-I'm reimplementing the Transformer architecture to understand how it works internally — from embeddings and positional encoding to multi-head attention, normalization, feed-forward networks, and training.
+I'm reimplementing the Transformer architecture to understand how it works internally, from embeddings and positional encoding to attention, encoder/decoder layers, and training.
 
 <div align="center">
 
-`Tokenization` → `Embeddings` → `Attention` → `Representation` → `Prediction`
+`Embeddings` → `Attention` → `Representation` → `Prediction`
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2200&pause=700&color=06B6D4&center=true&vCenter=true&width=600&lines=Query+%E2%86%92+Key+%E2%86%92+Value;Self-Attention+%E2%86%92+Context;Context+%E2%86%92+Representation;Representation+%E2%86%92+Prediction" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2200&pause=700&color=06B6D4&center=true&vCenter=true&width=500&lines=Query+%E2%86%92+Key+%E2%86%92+Value;Attention+%E2%86%92+Context;Context+%E2%86%92+Representation" alt="Transformer animation" />
 
 </div>
 
@@ -59,19 +55,19 @@ I'm reimplementing the Transformer architecture to understand how it works inter
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,c,pytorch,tensorflow,sklearn,numpy,pandas,matplotlib,seaborn,cuda,flask&perline=6&theme=light" />
+<img src="https://skillicons.dev/icons?i=python,c,pytorch,tensorflow,sklearn,numpy,pandas,matplotlib,seaborn,cuda,flask&perline=6&theme=light" alt="Tech Stack" />
 
 </div>
 
 ---
 
-## 🎯 Research Interests
+## 🔭 Research Interests
 
 <div align="center">
 
-| 🧠 Deep Learning | 🔤 NLP | ⚡ Transformers |
-|:---:|:---:|:---:|
-| 📐 Mathematical ML | 📈 Optimization | 🤖 Reinforcement Learning |
+**Deep Learning** · **NLP** · **Transformers** · **LLMs**
+
+**Optimization** · **Representation Learning** · **Reinforcement Learning**
 
 </div>
 
@@ -81,37 +77,34 @@ I'm reimplementing the Transformer architecture to understand how it works inter
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=kvsp7&show_icons=true&hide_border=true&theme=default&title_color=2563EB&icon_color=06B6D4" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=kvsp7&show_icons=true&include_all_commits=true&hide_border=true&bg_color=ffffff&title_color=2563EB&text_color=334155&icon_color=06B6D4" />
 
 <img width="49%" src="https://github-readme-streak-stats-eight.vercel.app/?user=kvsp7&theme=default&hide_border=true&ring=2563EB&fire=06B6D4&currStreakLabel=2563EB" />
 
 <br><br>
 
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=kvsp7&theme=minimal&hide_border=true&area=true&color=2563EB&line=06B6D4&point=2563EB" />
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=kvsp7&bg_color=ffffff&color=334155&line=2563EB&point=06B6D4&area_color=dbeafe&area=true&hide_border=true" alt="Contribution Activity" />
 
 </div>
 
 ---
 
-## 🧬 Contribution Activity
+## 🐍 Contributions
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=900&color=2563EB&center=true&vCenter=true&width=500&lines=Tracking+Research+%26+Builds;Every+Contribution+Moves+the+Model+Forward;Learning+%E2%86%92+Experimenting+%E2%86%92+Researching" />
+<img src="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-contribution-grid-snake.svg" width="95%" alt="Contribution Snake" />
+
+</div>
+
+---
+
+<div align="center">
+
+### Learn · Build · Experiment · Research
 
 <br>
 
-<img
-  src="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-contribution-grid-snake.svg"
-  alt="Animated GitHub Contribution Snake"
-  width="95%"
-/>
-
-<br>
-
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20&height=2&section=header"
-  width="80%"
-/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EFF6FF,50:DBEAFE,100:EDE9FE&height=100&section=footer" width="100%" />
 
 </div>
