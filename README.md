@@ -104,8 +104,12 @@
 <br />
 
 <div align="center">
-  <h3>👾 Contribution Space Shooter Game</h3>
+  <h3>👾 Dynamic Contribution Space Shooter Game</h3>
   <p align="center">
-    <img src="assets/shooting-game.svg" alt="Contribution Space Shooter Game" width="100%" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/shooting-game.gif" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/shooting-game.gif" />
+      <img src="assets/shooting-game.svg" alt="Dynamic Contribution Space Shooter Game" width="100%" />
+    </picture>
   </p>
 </div>
