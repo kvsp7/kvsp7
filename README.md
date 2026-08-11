@@ -1,4 +1,9 @@
-<h1 align="center">Hey 👋, I'm Kola Venkata Sai Putrayya</h1>
+<div align="center">
+  <!-- Animated ASCII Art Name -->
+  <img src="assets/ascii-name.svg" alt="Kola Venkata Sai Putrayya ASCII Art Animation" width="100%" />
+</div>
+
+<br />
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -6,7 +11,10 @@
   </a>
 </p>
 
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kvsp7&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/kvsp7?label=Followers&style=flat" alt="Followers" />
+</p>
 
 <br />
 
@@ -35,7 +43,7 @@
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=python,c,cpp,pytorch,tensorflow,sklearn,pandas,numpy,flask,docker,git,github,vscode,linux,bash&perline=16"
+    src="https://skillicons.dev/icons?i=python,c,cpp,pytorch,tensorflow,sklearn,pandas,numpy,flask,docker,git,github,vscode,linux,bash,aws&perline=16"
     alt="Tech Stack"
   />
 </p>
@@ -96,10 +104,12 @@
 <br />
 
 <div align="center">
-  <h3>🐍 Contribution Flow</h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-snake.svg" alt="Contribution Snake" width="100%" />
-  </picture>
+  <h3>👾 Contribution Space Shooter Game</h3>
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-space-shooter.gif" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-space-shooter.gif" />
+      <img src="assets/shooting-game.svg" alt="Contribution Space Shooter Game" width="100%" />
+    </picture>
+  </p>
 </div>
