@@ -106,10 +106,6 @@
 <div align="center">
   <h3>👾 Contribution Space Shooter Game</h3>
   <p align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-space-shooter.gif" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-space-shooter.gif" />
-      <img src="assets/shooting-game.svg" alt="Contribution Space Shooter Game" width="100%" />
-    </picture>
+    <img src="assets/shooting-game.svg" alt="Contribution Space Shooter Game" width="100%" />
   </p>
 </div>
