@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Animated ASCII Art Name -->
-  <img src="assets/ascii-name.svg" alt="Kola Venkata Sai Putrayya ASCII Art Animation" width="100%" />
+  <img src="assets/ascii-name.svg" alt="VENKATA SAI PUTRAYYA KOLA ASCII Art Animation" width="100%" />
 </div>
 
 <br />
