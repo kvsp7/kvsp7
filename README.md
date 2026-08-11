@@ -35,7 +35,7 @@
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=python,c,cpp,pytorch,tensorflow,sklearn,pandas,numpy,flask,docker,git,github,vscode,linux,bash,aws&perline=16"
+    src="https://skillicons.dev/icons?i=python,c,cpp,pytorch,tensorflow,sklearn,pandas,numpy,flask,docker,git,github,vscode,linux,bash&perline=16"
     alt="Tech Stack"
   />
 </p>
