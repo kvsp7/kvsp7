@@ -1,25 +1,21 @@
 <!-- ========================================================================= -->
-<!--  KOLA VENKATA SAI PUTRAYYA (kvsp7) — GITHUB RESEARCH PROFILE              -->
-<!--  Aesthetic: Clean Bright Scientific AI Laboratory Dashboard               -->
+<!--  KOLA VENKATA SAI PUTRAYYA (kvsp7) — GITHUB PROFILE                        -->
+<!--  Aesthetic: Simple, Professional, Clean & Beautiful                         -->
 <!-- ========================================================================= -->
 
 <div align="center">
-
-  <!-- ANIMATED SCIENTIFIC HERO GRAPHIC -->
-
-  <br /><br />
 
   <h1>Kola Venkata Sai Putrayya</h1>
   <p><b>AI/ML Student &nbsp;•&nbsp; Aspiring AI Researcher</b></p>
 
   <!-- ANIMATED TYPING SUBTITLE -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=900&color=2563EB&center=true&vcenter=true&width=650&lines=Understanding+AI+from+first+principles;Building+Deep+Learning+systems;Exploring+Transformers+%26+NLP;Studying+mathematical+foundations+of+ML;Reimplementing+research+papers;Learning+%E2%86%92+Building+%E2%86%92+Experimenting+%E2%86%92+Researching" alt="Typing Header SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=900&color=2563EB&center=true&vcenter=true&width=650&lines=Understanding+AI+from+first+principles;Building+Deep+Learning+systems;Exploring+Transformers+%26+NLP;Studying+mathematical+foundations+of+ML;Learning+%E2%86%92+Building+%E2%86%92+Experimenting+%E2%86%92+Researching" alt="Typing Subtitle" />
   </a>
 
   <br /><br />
 
-  <!-- COMPACT BADGES -->
+  <!-- METADATA BADGES -->
   <a href="https://github.com/kvsp7">
     <img src="https://komarev.com/ghpvc/?username=kvsp7&label=Profile%20Views&color=2563eb&style=flat-square" alt="Profile Views" />
   </a>
@@ -32,69 +28,22 @@
 
 <br />
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kvsp7/kvsp7/main/assets/divider.svg" width="160" alt="divider" />
-</p>
-
 <!-- ABOUT ME -->
 <h2 align="center">🧠 About Me</h2>
 
 <p align="center">
-  AI/ML student fascinated by how intelligent systems learn representations from data.
+  I am an <b>AI/ML Student</b> passionate about deep learning, natural language processing, and understanding intelligent systems from first principles.
   <br />
-  I enjoy going from:
-</p>
-
-<p align="center">
-  <b>Mathematics &nbsp;→&nbsp; Algorithms &nbsp;→&nbsp; Code &nbsp;→&nbsp; Experiments &nbsp;→&nbsp; Research</b>
+  My journey focuses on bridging mathematical foundations with practical deep learning implementations.
 </p>
 
 <br />
-
-<!-- CURRENT RESEARCH -->
-<h2 align="center">🔬 Currently Researching</h2>
-
-<table width="100%">
-  <tr>
-    <td width="55%" valign="top">
-      <h3>Transformer From Scratch</h3>
-      <p><i><b>"Attention Is All You Need"</b> — Reimplementation & Mathematical Analysis</i></p>
-      <p>Rebuilding the Transformer architecture from first principles to understand the core mechanisms driving modern Large Language Models:</p>
-      <ul>
-        <li><b>Scaled Dot-Product Attention</b> & Matrix Multiplications</li>
-        <li><b>Multi-Head Self-Attention</b> & Subspace Projections</li>
-        <li><b>Positional Encoding</b> (Sinusoidal & Rotary Embeddings)</li>
-        <li><b>Encoder / Decoder Stacks</b> & Residual Connections</li>
-        <li><b>Layer Normalization</b> & Feed-Forward Networks</li>
-      </ul>
-    </td>
-    <td width="45%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/kvsp7/kvsp7/main/assets/transformer-flow.svg" width="100%" alt="Transformer Flow Diagram" />
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<div align="center">
-
-```math
-\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-```
-
-</div>
-
-<br />
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kvsp7/kvsp7/main/assets/divider.svg" width="160" alt="divider" />
-</p>
 
 <!-- TECH STACK -->
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,pytorch,tensorflow,sklearn,flask&theme=light" alt="Core Frameworks" />
+  <img src="https://skillicons.dev/icons?i=python,c,pytorch,tensorflow,sklearn,flask&theme=light" alt="Core Tech Stack" />
 </p>
 
 <p align="center">
@@ -107,49 +56,33 @@
 
 <br />
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kvsp7/kvsp7/main/assets/divider.svg" width="160" alt="divider" />
-</p>
-
-<!-- RESEARCH INTERESTS -->
-<h2 align="center">🔭 Research Interests</h2>
+<!-- ACHIEVEMENTS & FEATURED WORK -->
+<h2 align="center">🏆 Key Achievements & Projects</h2>
 
 <table width="100%">
   <tr>
-    <td width="33%" valign="top">
-      <h4>🧠 Deep Learning</h4>
-      <p>Neural representation learning, architecture design, and generalization bounds.</p>
+    <td width="50%" valign="top">
+      <h3>⚡ Transformer From Scratch</h3>
+      <p>Reimplemented the complete <i>Attention Is All You Need</i> architecture in PyTorch to master scaled dot-product attention, multi-head self-attention, and positional encoding mechanisms.</p>
     </td>
-    <td width="33%" valign="top">
-      <h4>🔤 NLP</h4>
-      <p>Contextual embeddings, language modeling dynamics, and token representations.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>⚡ Transformers</h4>
-      <p>Self-attention mechanisms, KV-cache optimization, and sequence modeling.</p>
+    <td width="50%" valign="top">
+      <h3>🧠 NLP & Language Modeling</h3>
+      <p>Built pre-training and fine-tuning pipelines for sequence-to-sequence neural architectures, contextual token embeddings, and evaluation benchmark suites.</p>
     </td>
   </tr>
   <tr>
-    <td width="33%" valign="top">
-      <h4>📐 Mathematical ML</h4>
-      <p>Linear algebra foundations, statistical learning, and information theory.</p>
+    <td width="50%" valign="top">
+      <h3>🟢 High-Performance CUDA Computation</h3>
+      <p>Developed optimized parallel matrix operations and GPU tensor computation routines in C and CUDA C/C++.</p>
     </td>
-    <td width="33%" valign="top">
-      <h4>📈 Optimization</h4>
-      <p>Convex optimization, adaptive gradient methods (AdamW, Lion), and loss landscapes.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🤖 Reinforcement Learning</h4>
-      <p>Policy gradient algorithms, value-function approximation, and reward alignment.</p>
+    <td width="50%" valign="top">
+      <h3>📊 Deep Learning Optimization & Analytics</h3>
+      <p>Explored empirical loss landscapes, gradient convergence properties (AdamW, Lion), and model interpretability visualizations using NumPy, Seaborn & Matplotlib.</p>
     </td>
   </tr>
 </table>
 
 <br />
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kvsp7/kvsp7/main/assets/divider.svg" width="160" alt="divider" />
-</p>
 
 <!-- GITHUB ANALYTICS -->
 <h2 align="center">📊 GitHub Analytics</h2>
@@ -170,7 +103,7 @@
 <h2 align="center">📈 Contribution Activity</h2>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kvsp7&bg_color=ffffff&color=334155&line=2563eb&point=06b6d4&area_color=dbeafe&area=true&hide_border=true&custom_title=Research%20Activity" width="96%" alt="Contribution Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kvsp7&bg_color=ffffff&color=334155&line=2563eb&point=06b6d4&area_color=dbeafe&area=true&hide_border=true&custom_title=Activity%20Graph" width="96%" alt="Contribution Activity Graph" />
 </div>
 
 <br />
