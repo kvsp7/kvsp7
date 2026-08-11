@@ -93,20 +93,25 @@ I'm reimplementing the Transformer architecture to understand how it works inter
 
 ---
 
-## 🐍 Contribution Activity
+## 🧬 Contribution Activity
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=900&color=2563EB&center=true&vCenter=true&width=500&lines=Tracking+Research+%26+Builds;Every+Contribution+Moves+the+Model+Forward;Learning+%E2%86%92+Experimenting+%E2%86%92+Researching" />
 
-</div>
+<br>
 
----
+<img
+  src="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-contribution-grid-snake.svg"
+  alt="Animated GitHub Contribution Snake"
+  width="95%"
+/>
 
-<div align="center">
+<br>
 
-### Learn. Build. Experiment. Research.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:2563EB,100:FFFFFF&height=100&section=footer" />
+<img
+  src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20&height=2&section=header"
+  width="80%"
+/>
 
 </div>
