@@ -1,9 +1,9 @@
-name: Generate Contribution Space Shooter Game
+name: Generate Dynamic Space Shooter Game
 
 on:
   schedule:
     - cron: "0 0 * * *"    # runs daily at midnight UTC
-  workflow_dispatch:         # allows manual trigger
+  workflow_dispatch:         # allows manual trigger in GitHub Actions
   push:
     branches:
       - main
@@ -15,14 +15,21 @@ jobs:
   update-game:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
-      - name: Generate Space Shooter Game
+      - name: Generate Dynamic Space Shooter from GitHub Activity
         uses: czl9707/gh-space-shooter@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: 'kvsp7'
           output-path: 'assets/shooting-game.gif'
           strategy: 'random'
+
+      - name: Commit & Push Dynamic Game GIF
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update dynamic contribution space shooter [skip ci]"
+          file_pattern: 'assets/shooting-game.gif'
