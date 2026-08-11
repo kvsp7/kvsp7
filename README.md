@@ -47,9 +47,11 @@ I'm reimplementing the Transformer architecture to understand how it works inter
 
 `Tokenization` → `Embeddings` → `Attention` → `Representation` → `Prediction`
 
-</div>
+<br>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2200&pause=700&color=06B6D4&center=true&vCenter=true&width=600&lines=Query+%E2%86%92+Key+%E2%86%92+Value;Self-Attention+%E2%86%92+Context;Context+%E2%86%92+Representation;Representation+%E2%86%92+Prediction" />
+
+</div>
 
 ---
 
@@ -91,11 +93,11 @@ I'm reimplementing the Transformer architecture to understand how it works inter
 
 ---
 
-## 🐍 Contributions
+## 🐍 Contribution Activity
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-contribution-grid-snake.svg" />
+<img src="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
 
 </div>
 
