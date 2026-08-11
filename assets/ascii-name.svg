@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 370" width="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#05070e" />
+    </linearGradient>
+
+    <!-- Text Glow Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff">
+        <animate attributeName="stop-color" values="#00f3ff;#bd00ff;#ff007a;#00ff66;#00f3ff" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#bd00ff">
+        <animate attributeName="stop-color" values="#bd00ff;#ff007a;#00ff66;#00f3ff;#bd00ff" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00ff66">
+        <animate attributeName="stop-color" values="#00ff66;#00f3ff;#bd00ff;#ff007a;#00ff66" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Scanline Pattern -->
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#00f3ff" stroke-opacity="0.04" stroke-width="1" />
+    </pattern>
+
+    <!-- Animated Clip Mask for Typewriter Effect -->
+    <clipPath id="clip-type-1">
+      <rect x="0" y="0" width="0" height="120">
+        <animate attributeName="width" values="0; 940; 940; 0" keyTimes="0; 0.45; 0.9; 1" dur="8s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="clip-type-2">
+      <rect x="0" y="115" width="0" height="120">
+        <animate attributeName="width" values="0; 0; 940; 940; 0" keyTimes="0; 0.45; 0.9; 0.95; 1" dur="8s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes pulseShadow {
+      0%, 100% { filter: drop-shadow(0 0 4px rgba(0, 243, 255, 0.7)); }
+      50% { filter: drop-shadow(0 0 12px rgba(189, 0, 255, 0.9)); }
+    }
+    .term-window {
+      rx: 12px;
+      fill: url(#bg-grad);
+      stroke: #1e293b;
+      stroke-width: 1.5;
+    }
+    .ascii-text {
+      font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 10.5px;
+      font-weight: 800;
+      fill: url(#text-grad);
+      white-space: pre;
+    }
+    .prompt {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 13px;
+      fill: #38bdf8;
+    }
+    .cursor {
+      animation: blink 0.7s indefinite;
+      fill: #00f3ff;
+    }
+    .glowing-group {
+      animation: pulseShadow 4s indefinite ease-in-out;
+    }
+  </style>
+
+  <!-- Main Window -->
+  <rect class="term-window" width="970" height="360" x="5" y="5" />
+  
+  <!-- Scanline Overlay -->
+  <rect width="970" height="360" x="5" y="5" fill="url(#scanlines)" rx="12" />
+
+  <!-- Window Bar -->
+  <rect width="970" height="36" x="5" y="5" fill="#0f172a" rx="12" />
+  <rect width="970" height="1" x="5" y="41" fill="#1e293b" />
+  
+  <!-- Window Controls (Buttons) -->
+  <circle cx="25" cy="23" r="6" fill="#ff5f56" />
+  <circle cx="45" cy="23" r="6" fill="#ffbd2e" />
+  <circle cx="65" cy="23" r="6" fill="#27c93f" />
+
+  <!-- Terminal Title -->
+  <text x="490" y="27" font-family="'Fira Code', monospace" font-size="12" fill="#64748b" text-anchor="middle" font-weight="600">
+    ⚡ kvsp7@github: ~/ascii_art_generator.sh
+  </text>
+
+  <!-- Prompt Command -->
+  <g transform="translate(25, 65)">
+    <text class="prompt" x="0" y="0">
+      <tspan fill="#22c55e">kvsp7@arch</tspan><tspan fill="#64748b">:</tspan><tspan fill="#38bdf8">~</tspan><tspan fill="#f43f5e">$</tspan> ./ascii_name --user="VENKATA SAI PUTRAYYA KOLA" --mode=cyber-glow
+    </text>
+  </g>
+
+  <!-- ASCII Art Content with Typewriter Animated Clips -->
+  <g class="glowing-group" transform="translate(20, 95)" filter="url(#neon-glow)">
+    <!-- Line 1: VENKATA SAI -->
+    <g clip-path="url(#clip-type-1)">
+      <text class="ascii-text" x="0" y="15">  ██╗   ██╗███████╗███╗   ██╗██╗  ██╗ █████╗ ████████╗ █████╗     ███████╗ █████╗ ██╗</text>
+      <text class="ascii-text" x="0" y="30">  ██║   ██║██╔════╝████╗  ██║██║ ██╔╝██╔══██╗╚══██╔══╝██╔══██╗    ██╔════╝██╔══██╗██║</text>
+      <text class="ascii-text" x="0" y="45">  ██║   ██║█████╗  ██╔██╗ ██║█████═╝ ███████║   ██║   ███████║    ███████╗███████║██║</text>
+      <text class="ascii-text" x="0" y="60">  ╚██╗ ██╔╝██╔══╝  ██║╚██╗██║██╔═██╗ ██╔══██║   ██║   ██╔══██║    ╚════██║██╔══██║██║</text>
+      <text class="ascii-text" x="0" y="75">   ╚████╔╝ ███████╗██║ ╚████║██║  ██╗██║  ██║   ██║   ██║  ██║    ███████║██║  ██║██║</text>
+      <text class="ascii-text" x="0" y="90">    ╚═══╝  ╚══════╝╚═╝  ╚═══╝╚═╝  ╚══╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝</text>
+    </g>
+    
+    <!-- Line 2: PUTRAYYA KOLA -->
+    <g clip-path="url(#clip-type-2)">
+      <text class="ascii-text" x="0" y="125">  ██████╗ ██╗   ██╗████████╗██████╗  █████╗ ██╗   ██╗██╗   ██╗ █████╗     ██╗  ██╗ ██████╗ ██╗      █████╗ </text>
+      <text class="ascii-text" x="0" y="140">  ██╔══██╗██║   ██║╚══██╔══╝██╔══██╗██╔══██╗╚██╗ ██╔╝╚██╗ ██╔╝██╔══██╗    ██║ ██╔╝██╔═══██╗██║     ██╔══██╗</text>
+      <text class="ascii-text" x="0" y="155">  ██████╔╝██║   ██║   ██║   ██████╔╝███████║ ╚████╔╝  ╚████╔╝ ███████║    █████═╝ ██║   ██║██║     ███████║</text>
+      <text class="ascii-text" x="0" y="170">  ██╔═══╝ ██║   ██║   ██║   ██╔══██╗██╔══██║  ╚██╔╝    ╚██╔╝  ██╔══██║    ██╔═██╗ ██║   ██║██║     ██╔══██║</text>
+      <text class="ascii-text" x="0" y="185">  ██║     ╚██████╔╝   ██║   ██║  ██║██║  ██║   ██║      ██║   ██║  ██║    ██║  ██╗╚██████╔╝███████╗██║  ██║</text>
+      <text class="ascii-text" x="0" y="200">  ╚═╝      ╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝</text>
+    </g>
+  </g>
+
+  <!-- Output Footer & Status -->
+  <g transform="translate(25, 342)">
+    <text font-family="'Fira Code', monospace" font-size="12" fill="#10b981" font-weight="600">
+      ✔ Rendered ASCII Banner for VENKATA SAI PUTRAYYA KOLA
+    </text>
+    <rect class="cursor" x="435" y="-10" width="8" height="14" />
+  </g>
+</svg>
