@@ -11,10 +11,10 @@
   </a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://komarev.com/ghpvc/?username=kvsp7&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/kvsp7?label=Followers&style=flat" alt="Followers" />
-</p>
+</p> -->
 
 <br />
 
