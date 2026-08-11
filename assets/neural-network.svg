@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280">
+  <!-- Background -->
+  <rect width="800" height="280" rx="16" fill="#f8fafc"/>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e2e8f0" stroke-width="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="280" rx="16" fill="url(#grid)" opacity="0.4"/>
+
+  <!-- Title -->
+  <text x="400" y="24" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#94a3b8" letter-spacing="3" font-weight="600">NEURAL NETWORK · FORWARD PASS</text>
+
+  <!-- ─── CONNECTION LINES ─── -->
+  <!-- Input → Hidden -->
+  <line x1="150" y1="80" x2="400" y2="60" stroke="#cbd5e1" stroke-width="0.7" opacity="0.4"/>
+  <line x1="150" y1="80" x2="400" y2="110" stroke="#cbd5e1" stroke-width="0.7" opacity="0.5"/>
+  <line x1="150" y1="80" x2="400" y2="160" stroke="#cbd5e1" stroke-width="0.7" opacity="0.25"/>
+  <line x1="150" y1="80" x2="400" y2="210" stroke="#cbd5e1" stroke-width="0.7" opacity="0.15"/>
+  <line x1="150" y1="140" x2="400" y2="60" stroke="#cbd5e1" stroke-width="0.7" opacity="0.25"/>
+  <line x1="150" y1="140" x2="400" y2="110" stroke="#cbd5e1" stroke-width="0.7" opacity="0.5"/>
+  <line x1="150" y1="140" x2="400" y2="160" stroke="#cbd5e1" stroke-width="0.7" opacity="0.5"/>
+  <line x1="150" y1="140" x2="400" y2="210" stroke="#cbd5e1" stroke-width="0.7" opacity="0.3"/>
+  <line x1="150" y1="200" x2="400" y2="60" stroke="#cbd5e1" stroke-width="0.7" opacity="0.15"/>
+  <line x1="150" y1="200" x2="400" y2="110" stroke="#cbd5e1" stroke-width="0.7" opacity="0.3"/>
+  <line x1="150" y1="200" x2="400" y2="160" stroke="#cbd5e1" stroke-width="0.7" opacity="0.5"/>
+  <line x1="150" y1="200" x2="400" y2="210" stroke="#cbd5e1" stroke-width="0.7" opacity="0.5"/>
+  <!-- Hidden → Output -->
+  <line x1="400" y1="60" x2="650" y2="110" stroke="#cbd5e1" stroke-width="0.7" opacity="0.5"/>
+  <line x1="400" y1="60" x2="650" y2="180" stroke="#cbd5e1" stroke-width="0.7" opacity="0.25"/>
+  <line x1="400" y1="110" x2="650" y2="110" stroke="#cbd5e1" stroke-width="0.7" opacity="0.5"/>
+  <line x1="400" y1="110" x2="650" y2="180" stroke="#cbd5e1" stroke-width="0.7" opacity="0.35"/>
+  <line x1="400" y1="160" x2="650" y2="110" stroke="#cbd5e1" stroke-width="0.7" opacity="0.35"/>
+  <line x1="400" y1="160" x2="650" y2="180" stroke="#cbd5e1" stroke-width="0.7" opacity="0.5"/>
+  <line x1="400" y1="210" x2="650" y2="110" stroke="#cbd5e1" stroke-width="0.7" opacity="0.25"/>
+  <line x1="400" y1="210" x2="650" y2="180" stroke="#cbd5e1" stroke-width="0.7" opacity="0.5"/>
+
+  <!-- ─── PARTICLE PATHS ─── -->
+  <path id="p1" d="M150,80 L400,60" fill="none"/>
+  <path id="p2" d="M150,80 L400,110" fill="none"/>
+  <path id="p3" d="M150,140 L400,160" fill="none"/>
+  <path id="p4" d="M150,200 L400,210" fill="none"/>
+  <path id="p5" d="M400,60 L650,110" fill="none"/>
+  <path id="p6" d="M400,110 L650,110" fill="none"/>
+  <path id="p7" d="M400,160 L650,180" fill="none"/>
+  <path id="p8" d="M400,210 L650,180" fill="none"/>
+
+  <!-- ─── PARTICLES ─── -->
+  <circle r="3" fill="#2563eb" opacity="0">
+    <animateMotion dur="2.5s" repeatCount="indefinite" begin="0s"><mpath href="#p1"/></animateMotion>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="2.5s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle r="3" fill="#2563eb" opacity="0">
+    <animateMotion dur="2.8s" repeatCount="indefinite" begin="0.6s"><mpath href="#p2"/></animateMotion>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="2.8s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+  <circle r="3" fill="#2563eb" opacity="0">
+    <animateMotion dur="2.6s" repeatCount="indefinite" begin="1.2s"><mpath href="#p3"/></animateMotion>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="2.6s" repeatCount="indefinite" begin="1.2s"/>
+  </circle>
+  <circle r="3" fill="#2563eb" opacity="0">
+    <animateMotion dur="3s" repeatCount="indefinite" begin="1.8s"><mpath href="#p4"/></animateMotion>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="3s" repeatCount="indefinite" begin="1.8s"/>
+  </circle>
+  <circle r="3" fill="#7c3aed" opacity="0">
+    <animateMotion dur="2.5s" repeatCount="indefinite" begin="0.4s"><mpath href="#p5"/></animateMotion>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="2.5s" repeatCount="indefinite" begin="0.4s"/>
+  </circle>
+  <circle r="3" fill="#7c3aed" opacity="0">
+    <animateMotion dur="2.7s" repeatCount="indefinite" begin="1s"><mpath href="#p6"/></animateMotion>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="2.7s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle r="3" fill="#10b981" opacity="0">
+    <animateMotion dur="2.4s" repeatCount="indefinite" begin="1.5s"><mpath href="#p7"/></animateMotion>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="2.4s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle r="3" fill="#10b981" opacity="0">
+    <animateMotion dur="2.6s" repeatCount="indefinite" begin="2s"><mpath href="#p8"/></animateMotion>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="2.6s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+
+  <!-- ─── INPUT NODES ─── -->
+  <circle cx="150" cy="80" r="14" fill="#2563eb">
+    <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <text x="150" y="84" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="white" font-weight="700">x₁</text>
+
+  <circle cx="150" cy="140" r="14" fill="#2563eb">
+    <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="0.4s"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" begin="0.4s"/>
+  </circle>
+  <text x="150" y="144" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="white" font-weight="700">x₂</text>
+
+  <circle cx="150" cy="200" r="14" fill="#2563eb">
+    <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+  <text x="150" y="204" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="white" font-weight="700">x₃</text>
+
+  <!-- ─── HIDDEN NODES ─── -->
+  <circle cx="400" cy="60" r="14" fill="#06b6d4">
+    <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="0.9s"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" begin="0.9s"/>
+  </circle>
+  <text x="400" y="64" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="white" font-weight="700">h₁</text>
+
+  <circle cx="400" cy="110" r="14" fill="#06b6d4">
+    <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="1.2s"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" begin="1.2s"/>
+  </circle>
+  <text x="400" y="114" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="white" font-weight="700">h₂</text>
+
+  <circle cx="400" cy="160" r="14" fill="#7c3aed">
+    <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <text x="400" y="164" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="white" font-weight="700">h₃</text>
+
+  <circle cx="400" cy="210" r="14" fill="#7c3aed">
+    <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="1.8s"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" begin="1.8s"/>
+  </circle>
+  <text x="400" y="214" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="white" font-weight="700">h₄</text>
+
+  <!-- ─── OUTPUT NODES ─── -->
+  <circle cx="650" cy="110" r="14" fill="#10b981">
+    <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="2.1s"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" begin="2.1s"/>
+  </circle>
+  <text x="650" y="114" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="white" font-weight="700">y₁</text>
+
+  <circle cx="650" cy="180" r="14" fill="#10b981">
+    <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="2.4s"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" begin="2.4s"/>
+  </circle>
+  <text x="650" y="184" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="white" font-weight="700">y₂</text>
+
+  <!-- ─── LAYER LABELS ─── -->
+  <text x="150" y="248" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b" font-weight="500">Input</text>
+  <text x="400" y="248" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b" font-weight="500">Hidden</text>
+  <text x="650" y="248" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b" font-weight="500">Output</text>
+
+  <!-- Weight labels -->
+  <text x="275" y="42" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8" font-style="italic">W₁</text>
+  <text x="525" y="42" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8" font-style="italic">W₂</text>
+</svg>
