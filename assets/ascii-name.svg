@@ -137,7 +137,7 @@
   <!-- Output Footer & Status -->
   <g transform="translate(25, 342)">
     <text font-family="'Fira Code', monospace" font-size="12" fill="#10b981" font-weight="600">
-      ✔ Rendered ASCII Banner for VENKATA SAI PUTRAYYA KOLA
+      ✔ kvsp7
     </text>
     <rect class="cursor" x="435" y="-10" width="8" height="14" />
   </g>
