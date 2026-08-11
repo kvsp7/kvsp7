@@ -1,124 +1,145 @@
+<!-- ========================================================================= -->
+<!--  MINIMAL & HYPER-ANIMATED RESEARCHER GITHUB PROFILE                       -->
+<!-- ========================================================================= -->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:161B22,100:58A6FF&height=220&section=header&text=KVSP&fontSize=70&fontColor=58A6FF&animation=fadeIn&fontAlignY=35&desc=AI%2FML%20Researcher%20%7C%20Deep%20Learning%20%7C%20NLP&descAlignY=58&descSize=18"/>
+  <!-- ANIMATED HEADER WAVE BANNER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=AI%20%26%20Deep%20Learning%20Lab&fontSize=34&fontColor=00F0FF&animation=twinkle&fontAlignY=38" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+AI+from+first+principles;Exploring+Transformers+%26+NLP;Understanding+the+math+behind+ML;Learning+%E2%86%92+Building+%E2%86%92+Experimenting+%E2%86%92+Researching" />
+  <!-- ANIMATED TYPING SUBTITLE -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=00F0FF&center=true&vcenter=true&width=700&lines=%E2%9A%A1+GPU+%2F+CUDA+Acceleration;%F0%9F%A7%A0+Neural+Architecture+Optimization;%F0%9F%93%8A+Scientific+Computing+%26+Data+Analytics;%F0%9F%94%AC+PyTorch+%E2%80%A2+TensorFlow+%E2%80%A2+CUDA+%E2%80%A2+Flask" alt="Typing SVG" />
+  </a>
 
 </div>
 
----
+<br />
+
+<!-- ========================================================================= -->
+<!--  MINIMAL RESEARCH BIO & LATEX FORMULA                                     -->
+<!-- ========================================================================= -->
 
 <div align="center">
 
-## 🧠 Who am I?
+> 🔬 **AI & Computational Researcher** exploring high-performance neural networks, GPU kernel optimization, and intelligent systems.
 
-**AI/ML student interested in understanding intelligent systems from the inside out.**
-
-I like taking an idea from **mathematics → algorithm → implementation → experiment**.
-
-My main interests are:
-
-`Deep Learning` · `NLP` · `Transformers` · `Optimization` · `LLMs`
-
-</div>
-
----
-
-<div align="center">
-
-## 🔬 What I'm doing now
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=7EE787&center=true&vCenter=true&width=700&lines=Reimplementing+%22Attention+Is+All+You+Need%22;Understanding+Multi-Head+Attention;Studying+Transformer+representations;Learning+LLMs+from+the+foundations" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-```text
-                 TRANSFORMER
-                      │
-          ┌───────────┴───────────┐
-          ↓                       ↓
-     ATTENTION               REPRESENTATION
-          │                       │
-          └───────────┬───────────┘
-                      ↓
-                  LEARNING
-                      │
-                      ↓
-                  RESEARCH
+```math
+\min_{\theta} \, \mathbb{E}_{(x,y)\sim \mathcal{D}} \left[ \ell(f_\theta(x), y) \right] + \lambda \|\theta\|_2^2
 ```
 
 </div>
 
----
-
-<div align="center">
-
-## ⚡ Tech I work with
-
-<img src="https://skillicons.dev/icons?i=python,c,pytorch,tensorflow,sklearn,numpy,pandas,matplotlib,seaborn,cuda,flask&perline=6&theme=dark" />
-
-</div>
+<br />
 
 ---
 
+<!-- ========================================================================= -->
+<!--  ANIMATED SKILL ORBIT & TECH BADGES                                       -->
+<!-- ========================================================================= -->
+
+<h2 align="center">⚡ Research Tech Stack</h2>
+
 <div align="center">
 
-## 📐 How I learn
+  <!-- CORE LANGUAGES & CUDA -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
+  <img src="https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2200&pause=700&color=F778BA&center=true&vCenter=true&width=600&lines=Math;Math+%E2%86%92+Algorithm;Math+%E2%86%92+Algorithm+%E2%86%92+Code;Math+%E2%86%92+Algorithm+%E2%86%92+Code+%E2%86%92+Experiments;Experiments+%E2%86%92+Research" />
+  <br />
+
+  <!-- FRAMEWORKS & ML -->
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+
+  <br />
+
+  <!-- DATA & VISUALIZATION -->
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
 </div>
+
+<br />
 
 ---
 
+<!-- ========================================================================= -->
+<!--  SIMPLE HIGHLIGHTED RESEARCH PROJECTS                                     -->
+<!-- ========================================================================= -->
+
+<h2 align="center">📌 Highlighted Research Repositories</h2>
+
 <div align="center">
 
-## 📊 GitHub
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=kvsp7&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kvsp7&layout=compact&theme=github_dark&hide_border=true" />
-
-<br><br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kvsp7&theme=github-dark-blue&hide_border=true" />
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  ⚡ CUDA-Tensor-Engine     • High-performance CUDA C GEMM parallel matrix ops│
+│  🧠 Deep-Vision-Bench      • PyTorch & TensorFlow Vision Transformer benchmark│
+│  📊 Anomaly-Detect-ML     • Unsupervised time-series anomaly detection pipeline │
+│  🌐 AI-Inference-Flask-API • Async PyTorch model inference REST microservice│
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 </div>
+
+<br />
 
 ---
 
+<!-- ========================================================================= -->
+<!--  ANIMATED METRICS & SNAKE GRAPH                                           -->
+<!-- ========================================================================= -->
+
+<h2 align="center">📈 Animated Research Activity</h2>
+
 <div align="center">
 
-## 🐍 Contributions
+  <!-- ANIMATED STREAK STATS CARD -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&border_radius=10" alt="Streak Stats" width="85%" />
 
-<img src="https://raw.githubusercontent.com/kvsp7/kvsp7/output/github-contribution-grid-snake-dark.svg" />
+  <br /><br />
+
+  <!-- STATS & TOP LANGUAGES CARDS -->
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=5" height="165" />
+
+  <br /><br />
+
+  <!-- ANIMATED CONTRIBUTION SNAKE -->
+  <p><b>🐍 Research Contribution Flow</b></p>
+  <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="95%" />
 
 </div>
+
+<br />
 
 ---
 
-<div align="center">
-
-## 🚀 Research → Build → Learn
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=650&lines=Not+just+using+models.;Understanding+them.;Not+just+reading+papers.;Rebuilding+them.;Not+just+training+models.;Studying+why+they+work." />
-
-<br><br>
-
-<a href="https://github.com/kvsp7">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</div>
-
-<br>
+<!-- ========================================================================= -->
+<!--  ANIMATED QUOTE & FOOTER                                                  -->
+<!-- ========================================================================= -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:161B22,100:0D1117&height=120&section=footer&animation=fadeIn"/>
+  <!-- ANIMATED TYPING SCIENCE QUOTE -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=4000&pause=1000&color=7AA5FF&center=true&vcenter=true&width=800&lines=%22An+equation+means+nothing+to+me+unless+it+expresses+a+thought+of+God.%22+%E2%80%94+S.+Ramanujan;%22Science+is+about+knowing%3B+engineering+is+about+doing.%22+%E2%80%94+R.+Hamming" alt="Animated Quote" />
+  </a>
+
+  <br /><br />
+
+  <!-- VISITOR COUNTER BADGE -->
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=00f0ff&style=for-the-badge&label=LAB+VISITORS" alt="Visitor Counter" />
+
+  <br /><br />
+
+  <!-- ANIMATED FOOTER WAVE -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" width="100%" />
 
 </div>
