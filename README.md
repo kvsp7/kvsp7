@@ -6,7 +6,6 @@
 <div align="center">
 
   <!-- ANIMATED SCIENTIFIC HERO GRAPHIC -->
-  <img src="https://raw.githubusercontent.com/kvsp7/kvsp7/main/assets/neural-network.svg" width="95%" alt="Neural Network forward pass animation" />
 
   <br /><br />
 
