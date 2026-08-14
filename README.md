@@ -104,7 +104,7 @@
 <br />
 
 <div align="center">
-  <h3>👾 Contribution Space Shooter Game</h3>
+  <h3>👾 Activity</h3>
   <p align="center">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kvsp7/kvsp7/output/galaga-contribution-graph-dark.svg" />
