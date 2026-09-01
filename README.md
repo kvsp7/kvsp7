@@ -57,7 +57,7 @@
   <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
 </p>
 
-<br />
+<!-- <br />
 
 <table align="center" width="100%">
   <tr>
@@ -80,7 +80,7 @@
   </tr>
 </table>
 
-<br />
+<br /> -->
 
 <!-- <table align="center" width="100%">
   <tr>
