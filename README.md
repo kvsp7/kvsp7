@@ -39,7 +39,7 @@
 
 <br />
 
-<h2 align="center">🛠️ Tech Stack</h2>
+<!-- <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
   <img
@@ -48,7 +48,7 @@
   />
 </p>
 
-<!--<p align="center">
+<p align="center">
   <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
